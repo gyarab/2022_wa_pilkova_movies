@@ -1,0 +1,25 @@
+- model: films.director
+  pk: 2
+  fields:
+    name: Quentin Tarantino
+    birth_year: 1963
+- model: films.movie
+  pk: 1
+  fields:
+    name: Kill Bill
+    year: 2003
+    description: "In 1999, a pregnant woman in a wedding dress, the Bride, lies wounded
+      in a chapel in El Paso, Texas. She tells her attacker, Bill, that the baby is
+      his just as he shoots her in the head.\r\n\r\nYears later, the Bride, having
+      survived the attack, goes to the home of Vernita Green, planning to kill her.
+      Both women were members of the Deadly Vipers, a now-disbanded group of assassins
+      led by Bill. Vernita now leads a normal suburban family life. The women engage
+      in a knife fight, which is interrupted for the benefit of Vernita's young daughter
+      Nikki, just before she arrives home from school. The Bride agrees to meet Vernita
+      at night to settle the matter, but when Vernita tries to shoot the Bride with
+      a pistol hidden in a box of cereal, the Bride throws a knife into Vernita's
+      chest, killing her. After the Bride pulls the knife out of Vernita's chest,
+      Nikki sees her mother's lifeless body. The Bride expresses regret at what Nikki
+      has seen but insists that Vernita deserved it. She offers Nikki a chance to
+      avenge her mother's death when she grows up, should she choose to do so."
+    director: 2
