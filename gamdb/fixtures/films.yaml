@@ -1,8 +1,3 @@
-- model: films.director
-  pk: 2
-  fields:
-    name: Quentin Tarantino
-    birth_year: 1963
 - model: films.movie
   pk: 1
   fields:
@@ -23,3 +18,495 @@
       has seen but insists that Vernita deserved it. She offers Nikki a chance to
       avenge her mother's death when she grows up, should she choose to do so."
     director: 2
+- model: films.movie
+  pk: 2
+  fields:
+    name: Titanic
+    year: 1997
+    description: "In 1996, aboard the research vessel Akademik Mstislav Keldysh, Brock
+      Lovett and his team search the wreck of RMS Titanic. They recover a safe they
+      hope contains a necklace with a large diamond known as the Heart of the Ocean.
+      Instead, they only find a drawing of a young nude woman wearing the necklace.
+      The sketch is dated April 14, 1912, the same day the Titanic struck the iceberg
+      that caused it to sink.[Note 2] Rose Dawson Calvert, the woman in the drawing,
+      is brought aboard Keldysh, and recounts her experiences.\r\n\r\nIn 1912 Southampton,
+      17-year-old Rose DeWitt Bukater, her wealthy fianc� Caledon \"Cal\" Hockley,
+      and Rose's widowed mother Ruth, board the Titanic. Ruth emphasizes that Rose's
+      marrying Cal will resolve the family's financial problems and maintain their
+      upper-class status. Meanwhile, Jack Dawson, a poor young artist, wins a third-class
+      Titanic ticket in a poker game. After setting sail, Rose, distraught over her
+      loveless engagement, climbs over the stern railing to jump overboard. Jack appears
+      and coaxes her back onto the deck, and they develop a tentative friendship.
+      When Cal and Ruth strongly object, Rose discourages Jack's attention, but realizing
+      she has fallen in love with him, she returns to him, who reciprocates.\r\n\r\nRose
+      brings Jack to her state room and requests he draw her nude, wearing only the
+      Heart of the Ocean. They later evade Cal's servant, Lovejoy, and have sex in
+      a Renault Towncar inside the cargo hold. On the forward deck, they witness the
+      ship's collision with an iceberg, overhearing its officers and builder discussing
+      it. Cal discovers Jack's sketch and Rose's insulting note left inside his safe,
+      along with the necklace. When Jack and Rose return to warn the others about
+      the collision, Cal has Lovejoy slip the necklace into Jack's pocket to frame
+      him for theft. Jack is then confined in the master-at-arms' office. Cal then
+      puts the necklace into his own overcoat pocket.\r\n\r\nWith the ship sinking,
+      Rose flees Cal and Ruth, who has boarded a lifeboat. Rose finds and frees Jack,
+      and they barely make it back to the boat deck. Cal and Jack urge Rose to board
+      a lifeboat. Intending to save himself, Cal lies that he will get Jack safely
+      off the ship. As her lifeboat is lowered, Rose, unable to abandon Jack, jumps
+      back to the ship. Cal grabs Lovejoy's pistol and chases Jack and Rose; they
+      get away, and Cal realizes that he gave his coat, and consequently the necklace,
+      to Rose. He later boards a lifeboat posing as a lost child's father, knowing
+      the crew prioritized women and children for evacuation.\r\n\r\nJack and Rose
+      return to the boat deck. The lifeboats have departed and the ship's stern is
+      rising as the flooded bow sinks; the two desperately cling to the stern rail.
+      The upended ship breaks in half and the bow section dives downward. The remaining
+      stern slams back onto the ocean, then upends again before it, too, sinks. In
+      the freezing water, Jack helps Rose onto a wood transom panel among the debris,
+      buoyant enough for only one person, and makes her promise to survive. Jack dies
+      of hypothermia, and Rose is saved by a returning lifeboat.\r\n\r\nThe RMS Carpathia
+      rescues the survivors; Rose avoids Cal by hiding among the steerage passengers
+      and gives her name as Rose Dawson. Still wearing Cal's overcoat, she discovers
+      the necklace tucked inside the pocket. In the present, Rose says she later heard
+      that Cal committed suicide after losing his fortune in the Wall Street Crash
+      of 1929. Lovett abandons his search after hearing Rose's story. Alone on the
+      stern of Keldysh, Rose takes the Heart of the Ocean, which has been in her possession
+      all along, and drops it into the sea over the wreck site. While she is seemingly
+      asleep in her bed,[17] her photos on the dresser depict a life of freedom and
+      adventure inspired by her early conversations with Jack. A young Rose reunites
+      with Jack at the Titanic's Grand Staircase, applauded by those who died on the
+      ship."
+    director: 3
+- model: films.movie
+  pk: 3
+  fields:
+    name: Avatar
+    year: 2009
+    description: "In 2154, the natural resources of the Earth have been depleted.
+      The Resources Development Administration (RDA) mines the valuable mineral unobtanium
+      on Pandora, a moon in the Alpha Centauri star system. Pandora, whose atmosphere
+      is inhospitable to humans, is inhabited by the Na'vi, 10-foot-tall (3.0 m),
+      blue-skinned, sapient humanoids that live in harmony with nature. To explore
+      Pandora, genetically matched human scientists use Na'vi-human hybrids called
+      \"avatars.\" Paraplegic Marine Jake Sully is sent to Pandora to replace his
+      deceased identical twin, who had signed up to be an operator. Avatar Program
+      head Dr. Grace Augustine considers Sully inadequate but accepts him as a bodyguard.\r\n\r\nWhile
+      escorting the avatars of Grace and Dr. Norm Spellman, Jake's avatar is attacked
+      by Pandoran wildlife, and he flees into the forest, where he is rescued by female
+      Na'vi Neytiri. Suspicious of Jake, she takes him to her clan. Neytiri's mother,
+      Mo'at, the clan's spiritual leader, orders her daughter to initiate Jake into
+      their society. Colonel Miles Quaritch, head of RDA's security force, promises
+      Jake that the company will restore the use of his legs if he provides information
+      about the Na'vi and their gathering place, the giant Hometree, under which is
+      a rich deposit of unobtanium. Learning of this, Grace transfers herself, Jake,
+      and Norm to an outpost. Jake and Neytiri fall in love as Jake is initiated into
+      the tribe. He and Neytiri choose each other as mates. When Jake attempts to
+      disable a bulldozer threatening a sacred Na'vi site, Administrator Parker Selfridge
+      orders Hometree destroyed. Despite Grace's argument that destroying Hometree
+      could damage Pandora's biological neural network, Selfridge gives Jake and Grace
+      one hour to convince the Na'vi to evacuate.\r\n\r\nJake confesses that he was
+      a spy and the Na'vi take him and Grace captive. Quaritch's soldiers destroy
+      Hometree, killing many, including Neytiri's father, the clan chief. Mo'at frees
+      Jake and Grace, but they are detached from their avatars and imprisoned by Quaritch's
+      forces. Pilot Trudy Chac�n, disgusted by Quaritch's brutality, airlifts Jake,
+      Grace, and Norm to Grace's outpost. Grace is shot during the escape. Jake regains
+      the Na'vi's trust by connecting his mind to that of Toruk, a dragon-like creature
+      feared and revered by the Na'vi. At the sacred Tree of Souls, Jake pleads with
+      Mo'at to heal Grace. The clan attempts to transfer Grace into her avatar with
+      the aid of the Tree of Souls, but she dies. Supported by new chief Tsu'tey,
+      Jake unites the clan, telling them to gather all the clans to battle the RDA.
+      Quaritch organizes a strike against the Tree of Souls to demoralize the Na'vi.
+      Jake prays to the Na'vi deity Eywa via a neural connection with the Tree of
+      Souls. Tsu'tey and Trudy are among the battle's heavy casualties.\r\n\r\nThe
+      Na'vi are rescued when Pandoran wildlife unexpectedly join the attack and overwhelm
+      the humans, which Neytiri interprets as Eywa answering Jake's prayer. Quaritch,
+      wearing an AMP suit, escapes his crashed aircraft and breaks open the avatar
+      link unit containing Jake's human body, exposing it to Pandora's poisonous atmosphere.
+      As Quaritch prepares to slit Jake's avatar's throat, he is killed by Neytiri,
+      who saves Jake from suffocation, seeing his human form for the first time. With
+      the exceptions of Jake, Norm, and a select few others, all humans are expelled
+      from Pandora. Jake is permanently transferred into his avatar with the aid of
+      the Tree of Souls."
+    director: 3
+- model: films.movie
+  pk: 4
+  fields:
+    name: 'Avatar: The Way of Water'
+    year: 2022
+    description: "Sixteen years after the Na'vi repelled the RDA invasion of Pandora,[a]
+      Jake Sully lives as chief of the Omatikaya clan and raises a family with Neytiri,
+      which includes sons Neteyam and Lo'ak, daughter Tuk, and adopted children Kiri
+      (born from Grace Augustine's inert avatar) and Spider, the Pandora-born human
+      son of the late Colonel Miles Quaritch. To the Na'vi's dismay, the RDA, led
+      by their new leader, Frances Ardmore, returns to colonize Pandora as Earth is
+      dying. Among the new arrivals are Recombinants�Na'vi avatars implanted with
+      deceased human soldiers' memories�with Quaritch's recombinant serving as the
+      leader.\r\n\r\nA year into the occupation, Jake leads a guerilla campaign against
+      the RDA. During a counterinsurgency mission, Quaritch and his subordinates capture
+      Jake's children. Jake and Neytiri arrive and free them, killing several of Quaritch's
+      soldiers, but Spider remains captured by Quaritch, who recognizes him as his
+      son. After the RDA fails to get information from Spider, Quaritch decides to
+      spend time with his son to draw him on his side. In turn, Spider teaches Quaritch
+      about Na'vi culture and language. Aware of the danger posed by Spider's knowledge
+      of his whereabouts, Jake and his family exile themselves from the Omatikaya
+      and retreat to Pandora's eastern seaboard, where the Metkayina clan gives them
+      refuge. There, the family learns the ways of the reef people, Kiri develops
+      a spiritual bond with the sea, and Lo'ak befriends Tsireya, the daughter of
+      chief Tonowari and his wife, Ronal.\r\n\r\nAfter defending Kiri against Aonung,
+      Tonowari's son, Lo'ak apologizes at Jake's insistence. Aonung and his friends
+      then entice Lo'ak to a trip into a sea predator's territory and leave him stranded.
+      After being saved from a giant sea beast, Lo'ak is befriended by Payakan, a
+      Tulkun�an intelligent and pacifistic whale-like species whom the Metkayina consider
+      their spiritual brethren. Upon his return, Lo'ak wins Aonung's friendship by
+      taking the blame for the trip but is told that Payakan is an outcast among the
+      Tulkun. Later, Kiri links to the Metkayina's underwater Spirit Tree and spiritually
+      \"meets\" her biological mother, Grace, whose consciousness lives within Pandora.
+      During the link induced trance, Kiri suffers a seizure and falls unconscious,
+      nearly drowning.\r\n\r\nJake summons Norm Spellman and Max Patel for help using
+      their medical equipment, where they diagnose Kiri with epilepsy and warn that
+      she cannot connect to the Spirit Tree again, as doing so may kill her. Although
+      Ronal saves Kiri, Quaritch tracks Norm and Max's aircraft to the archipelago
+      where the Metkayina live. Bringing Spider with him, Quaritch joins forces with
+      the RDA's marine operations, led by Captain Mick Scoresby, and commandeers a
+      whaling vessel that hunts Tulkuns to extract an anti-aging serum called amrita.
+      Quaritch's squad raids the archipelago, interrogating the tribes about Jake's
+      location to no avail. Quaritch then orders the whalers to kill Tulkuns near
+      the villages to draw Jake out. Lo'ak mentally links with Payakan and learns
+      that he was cast out because he went against the pacifist ways of his species
+      and attacked the whalers who killed his mother, causing many deaths.\r\n\r\nWhen
+      the Metkayina learns of the Tulkun killings, Lo'ak warns Payakan, followed by
+      his siblings and friends. They find Payakan being hunted, and Quaritch captures
+      Lo'ak, Tsireya, and Tuk. Jake, Neytiri, and the Metkayina set out to confront
+      the humans and rescue the kids. Quaritch forces Jake to surrender, but Payakan
+      attacks the whalers, triggering a fight that kills several crew members, cripples
+      the vessel, and severs Scoresby's arm. Neteyam rescues Lo'ak, Tsireya, and Spider
+      but is fatally shot by Quaritch. Devastated, both parents go back to save their
+      remaining children that were recaptured; upon facing Quaritch's team, Neytiri
+      flies into a grieving rage and brutally murders many of them, accidentally breaking
+      her father's bow in the process. Jake faces Quaritch, who uses Kiri as a hostage,
+      and when Neytiri does the same with Spider, Quaritch at first denies their relationship
+      but desists once Neytiri attempts to kill Spider.\r\n\r\nJake, Quaritch, Neytiri,
+      and Tuk are trapped inside the sinking vessel. After a tense skirmish, Jake
+      strangles Quaritch unconscious and is rescued by Lo'ak and Payakan, while Kiri
+      rescues Neytiri and Tuk. Spider rescues Quaritch but refuses to go with him
+      and rejoins Jake's family, at which point he is welcomed as a true son. After
+      Neteyam's funeral, Jake informs Tonowari of his decision to leave the Metkayina.
+      Still, the chief respectfully identifies Jake as part of the clan and welcomes
+      him and his family to stay. Before vowing to resume their campaign against the
+      RDA, Jake and his family accept and live their new life at sea."
+    director: 3
+- model: films.movie
+  pk: 5
+  fields:
+    name: 'Dirty Dancing: Havana Nights'
+    year: 2004
+    description: "In 1958, Katey Miller (Romola Garai), her parents (Sela Ward and
+      John Slattery), and her younger sister Susie (Mika Boorem) arrive in Cuba during
+      the Cuban revolution. A self-described bookworm, Katey is not very happy about
+      having to move to a different country during her senior year of high school,
+      as she had been planning to attend Radcliffe College, although the rest of her
+      family seem extremely pleased to be in Cuba.\r\n\r\nMeeting several other rich
+      American teenagers down by the pool - including James Phelps (Jonathan Jackson),
+      the son of her father's boss - Katey becomes disgusted when one of the teenagers
+      insults a local waiter when he drops their drinks because Katey accidentally
+      bumped into him. Katey attempts to talk to the waiter�Javier (Diego Luna), who
+      works at the hotel to support his family�because she feels awful about what
+      had occurred, but he is not interested.\r\n\r\nKatey watches a film of her mother
+      and father dancing and wishes she could dance as well as they did. She and her
+      father dance a bit. The next day in class, Katey is asked to read aloud from
+      the Odyssey - a passage about love and passion. After class, James invites her
+      to a party at the country club the next day and she accepts.\r\n\r\nWhile walking
+      home from school, she sees Javier dancing to street music, and he offers to
+      walk her home. They stop to listen to a street band and police show up, stopping
+      Javier while Katey runs away.\r\n\r\nThe next day, Katey tries some of the dance
+      moves she saw. Javier sees her and asks her to come see the real dancers Saturday
+      night, but she says she is already going to the country club. Javier gets upset
+      and leaves. Katey wears one of her maid's dresses to the country club party
+      and impresses James. Katey convinces him to take her to the Cuban nightclub
+      La Rosa Negra (The Black Rose) where Javier is dancing with the ladies.\r\n\r\nJavier
+      dances with Katey while James sits at the bar. Soon he is accosted by Javier's
+      brother, Carlos, who tells him that they will eventually kick the Americans
+      out of Cuba. Javier comes over and argues with his brother. James takes Katey
+      back to the car and assaults her after she refuses to kiss him. She slaps him
+      and runs into the club, and Javier agrees to walk her home.\r\n\r\nThe next
+      day, Katey walks by a dance class. The teacher (Patrick Swayze) asks if anyone
+      wants to enter the big dance contest and then dances with Katey for a bit. She
+      grabs a flyer for the competition.\r\n\r\nWhile walking to the pool, James apologizes
+      to Katey and then tells her that Susie saw Javier with her and got him fired.
+      Katey argues with Susie and goes to find Javier. He is now working at a chop
+      shop with Carlos. She asks him to enter the dance contest with her, but he refuses.
+      Meanwhile, it is becoming apparent that Carlos is helping the revolutionaries.\r\n\r\nThe
+      next day, Javier shows up at Katey's school and agrees to enter the dance contest
+      with her. They start teaching each other dance moves and Javier convinces her
+      to \"feel the music.\" They practice all the time, and Katey dances some more
+      with the dance teacher, until it is the night of the dance. Katey and Javier
+      dance with the other couples on the floor and are chosen to go on to the next
+      round.\r\n\r\nKatey's parents disapprove of her relationship with Javier, but
+      Katey reconciles with them. On the night of the contest's final round, while
+      Katey and Javier are on the dance floor, Javier sees his brother and some revolutionaries
+      disguised as waiters, and the police soon try to arrest them. The contest stops
+      as everyone flees the club, and Javier has to save Carlos from the police. Javier
+      and Carlos talk about how they miss their dad, then they hear that Batista has
+      fled the country and join the celebration.\r\n\r\nLater, Javier comes to the
+      hotel and finds Katey. He takes her to the beach and they have sex. The next
+      day, Katey's parents tell her they are leaving Cuba and she has one last night
+      with Javier. They go to the Cuban club where they first danced, and the floor
+      is theirs as they are dubbed King and Queen. Katey's family is there to see
+      her, and Katey narrates that she doesn't know when she will see Javier again,
+      but this will not be their last time to dance together."
+    director: 4
+- model: films.movie
+  pk: 6
+  fields:
+    name: Dirty Dancing
+    year: 1987
+    description: "In the summer of 1963, 17-year-old[5] Frances \"Baby\" Houseman
+      is vacationing with her parents, Dr. Jake and Marjorie Houseman, and her older
+      sister Lisa at Kellerman's, an upscale Catskills resort in the Borscht Belt
+      owned by Jake's sarcastic best friend Max. Exploring one night, Baby secretly
+      observes Max instructing the waiters, all Ivy League students, to romance the
+      guests' daughters, no matter how unattractive. Max also demeans the working
+      class entertainment staff, including Johnny Castle, one of the dance instructors.
+      Baby is attracted to Johnny and dances briefly with him after his kindhearted
+      cousin, Billy, introduces them at a secret \"dirty dancing\" party for resort
+      staff. Max's grandson Neil flirts with Baby in the meantime.\r\n\r\nBaby learns
+      Johnny's dance partner Penny is pregnant by Robbie, a waiter and womanizer who
+      attends Yale School of Medicine and now has his eye on Lisa. When Robbie refuses
+      to help Penny, Baby, without explaining why, borrows money from her father to
+      pay for Penny's abortion. At first, Penny declines as it would cause her and
+      Johnny to miss a performance at a nearby resort, costing them the season's salary,
+      but Baby volunteers to stand in for Penny. During her dance sessions with Johnny,
+      they develop a mutual attraction, and despite their failure to execute a climactic
+      lift, Johnny and Baby's performance is successful.\r\n\r\nBack at Kellerman's,
+      Penny is gravely injured by the botched abortion, and Baby enlists her father's
+      help to stabilize Penny. Angered by Baby's deception, and assuming Johnny got
+      Penny pregnant, Dr. Houseman orders Baby to stay away from them. Baby sneaks
+      off to apologize to Johnny for her dad's treatment, but Johnny feels he deserves
+      it due to his lower status; Baby reassures him of his worth, declaring her love.
+      They begin secretly seeing each other, and her father refuses to talk to her.\r\n\r\n\r\nScene
+      from the dancing finale[6][7]\r\nJohnny rejects an indecent proposal by Vivian
+      Pressman, an adulterous wife, who instead sleeps with Robbie, inadvertently
+      foiling Lisa's plan to lose her virginity to him. When Vivian spots Baby leaving
+      Johnny's cabin, she feels spurned and attempts revenge on Johnny by claiming
+      he stole her husband's wallet. Max is ready to fire Johnny, but Baby backs up
+      his alibi, revealing she was with Johnny the night of the theft. The real thieves,
+      Sydney and Sylvia Schumacher, are caught, but Johnny is still fired for mixing
+      with Baby. Before leaving, Johnny tries to talk to Dr. Houseman but is accused
+      of only trying to get at Baby. Baby later apologizes to her father for lying,
+      but not for her romance with Johnny, and then accuses him of classism.\r\n\r\nAt
+      the end-of-season talent show, Dr. Houseman gives Robbie a recommendation letter
+      for medical school, but when Robbie admits that he got Penny pregnant, and then
+      insults her and Baby, Dr. Houseman angrily grabs the letter back. Johnny arrives
+      and disrupts the final song by bringing Baby up on stage and declaring that
+      she has made him a better person, and then they perform the dance they practiced
+      all summer, ending with a successful climactic lift. Dr. Houseman admits he
+      was wrong about Johnny and reconciles with Baby, and all the staff and guests
+      join Baby and Johnny dancing to \"(I've Had) The Time of My Life\"."
+    director: 4
+- model: films.movie
+  pk: 7
+  fields:
+    name: Once Upon a Time in Hollywood
+    year: 2019
+    description: "In February 1969, Hollywood actor Rick Dalton, star of 1950s TV
+      Western series Bounty Law, fears his career is fading, with his recent roles
+      being guest appearances as villains. His agent Marvin Schwarz advises him to
+      make Spaghetti Westerns in Italy, which Dalton considers beneath him. Dalton's
+      best friend and stunt double, Cliff Booth � a war veteran who lives in a trailer
+      with his pit bull, Brandy � drives Dalton around due to his DUI arrests and
+      driver's license suspension. Booth struggles to find stunt work because of rumors
+      he murdered his wife. Actress Sharon Tate and her husband, director Roman Polanski,
+      have moved next door to Dalton, and Dalton dreams of befriending them to revive
+      his career. That night, Tate and Polanski attend a celebrity-filled party at
+      the Playboy Mansion.\r\n\r\nThe next day, Booth recalls a sparring contest he
+      had with Bruce Lee on the set of The Green Hornet resulting in Booth's firing.
+      Meanwhile, Charles Manson stops by the Polanski residence looking for Terry
+      Melcher, who used to live there, but is turned away by Jay Sebring. As Tate
+      runs errands, she stops at the Fox Bruin Theater to watch herself in The Wrecking
+      Crew.\r\n\r\nDalton is cast as the villain in the pilot for the TV Western Lancer
+      and strikes up a conversation with eight-year-old co-star Trudi Frazer. During
+      filming, Dalton struggles to remember his lines and suffers a breakdown in his
+      trailer. He subsequently delivers a strong performance that impresses Frazer
+      and the director, Sam Wanamaker.\r\n\r\nBooth picks up a hitchhiker, \"Pussycat\"
+      and takes her to Spahn Ranch, where he once worked on the set of Bounty Law.
+      He observes the many \"hippies\" living there. Suspecting they may be taking
+      advantage of the ranch's elderly owner, George Spahn, Booth insists on checking
+      on him despite \"Squeaky\"'s objections. Booth speaks with the nearly blind
+      Spahn, who dismisses his concerns. Upon leaving, Booth discovers that \"Clem\"
+      has punctured a tire on Dalton's car. Booth beats \"Clem\" and makes him change
+      the tire. \"Tex\" is summoned to deal with the situation, but arrives as Booth
+      is driving away.\r\n\r\nAfter watching Dalton's guest performance on an episode
+      of The F.B.I., Schwarz books him as the lead in Sergio Corbucci's Spaghetti
+      Western Nebraska Jim. Dalton takes Booth with him for a six-month stint in Italy.
+      During this period Dalton films three additional movies; marries Italian starlet
+      Francesca Capucci; and informs Booth he can no longer afford his services.\r\n\r\nReturning
+      to Los Angeles on August 8, 1969, Dalton and Booth go out for drinks to commemorate
+      their time together, then go back to Dalton's house. Meanwhile, Tate and Sebring
+      go out for dinner with friends, then return to Tate's house. Booth smokes an
+      LSD-laced cigarette purchased earlier and takes Brandy for a walk while Dalton
+      prepares drinks. \"Tex\", \"Sadie\", \"Katie\", and \"Flowerchild\" arrive outside
+      in preparation to murder everyone in Tate's house, but Dalton hears the car's
+      muffler and orders them off the street. Recognizing him, the four change their
+      plans and decide to kill him instead, after \"Sadie\" reasons that Hollywood
+      has \"taught them to murder\". \"Flowerchild\" deserts them, speeding off with
+      their car.\r\n\r\nBreaking into Dalton's house, they confront Booth and Capucci.
+      \"Tex\" aims his pistol at Booth. Now tripping on the LSD, Booth chats with
+      the intruders, remembering them from Spahn Ranch. Booth signals Brandy to attack
+      \"Tex\". \"Sadie\" lunges at Booth with a knife. Booth throws a can at her face
+      and signals Brandy to attack her. Capucci punches \"Katie\" and runs away. \"Katie\"
+      dives at Booth after he fights and kills \"Tex\". Realizing that \"Sadie\"'s
+      knife is stuck in his thigh, Booth kills \"Katie\" by smashing her face against
+      household decor, then passes out. \"Sadie\" stumbles outside into the pool firing
+      \"Tex\"'s pistol. Dalton, floating in the pool, listening to music on headphones,
+      oblivious to the chaos inside, is alarmed. He retrieves a flamethrower retained
+      from The 14 Fists of McClusky and incinerates \"Sadie\". Booth later regains
+      consciousness and is taken away in an ambulance, and Sebring and Tate invite
+      Dalton over for a drink, which he accepts."
+    director: 2
+- model: films.movie
+  pk: 8
+  fields:
+    name: 10 Things I Hate About You
+    year: 1999
+    description: 'In Padua Hills, a fictional town near Seattle, new sophomore student
+      Cameron (Joseph Gordon-Levitt) instantly falls head over heels for the girl
+      of his dreams: popular and wealthy sophomore Bianca (Larisa Oleynik), but learns
+      that her father has prohibited her from dating until her ill-tempered, hot-headed
+      older sister Kat (Julia Stiles), who is a senior and eagerly awaiting the moment
+      she can leave town for college in the fall, gets a boyfriend. In attempt to
+      solve his problem, Cameron''s new friend, the wealthy aspiring model and self-absorbed
+      senior Joey Donner (Andrew Keegan) finds the only guy who could possibly be
+      a match for Kat: Patrick Verona (Heath Ledger) , a mysterious bad boy who is
+      a junior and has a nasty reputation of his own. For $500, Patrick has to go
+      out and break Kat''s heart before the end of the school year, but while hanging
+      out with her, he develops feelings for her as she becomes more vulnerable to
+      him than she has with anyone else.'
+    director: 5
+- model: films.movie
+  pk: 9
+  fields:
+    name: Flipped
+    year: 2010
+    description: "In 1957, 7-year-old Bryce Loski moves in across the street from
+      Julianna \"Juli\" Baker. Looking into each other's eyes, Juli knows it�s love,
+      but Bryce is put off and avoids her.\r\n\r\nFour years later Juli is still completely
+      enamored, rarely leaving Bryce alone. He tries everything to get rid of her,
+      including dating Sherry Stalls, one of the most popular girls in school, whom
+      he knows she dislikes. This does not deter her. Bryce's best friend Garrett,
+      who has a crush on Sherry, tells her why Bryce is dating her, so she dumps him.
+      Embarrassed, Bryce looks forward to seventh grade as he hopes with more students
+      Juli will finally meet someone else.\r\n\r\nThe following year, Chet Duncan,
+      Bryce's grandfather, moves in with the family. Juli adores an old sycamore tree
+      in their neighborhood, but one day discovers the tree is going to be cut down.
+      Juli tries to prevent its removal by climbing it and refusing to come down.
+      After much attention from the town, her father Richard convinces her to come
+      out of the tree and it is cut down. Juli is almost inconsolable until Richard
+      gives her a painting of the tree, which helps her overcome her distress, and
+      her exploits are written about in the local paper.\r\n\r\nJuli raises chickens
+      in her backyard as part of a school project and soon finds them laying eggs,
+      which she sells to their neighbors but gives to Bryce as a gesture. She is hurt
+      when she finds out Bryce has been throwing away the eggs she offered, out of
+      his father's fear of salmonella due to the state of their yard. Embarrassed,
+      Juli decides to fix it up.\r\n\r\nAfter reading about Juli in the paper, Chet
+      helps her with her yard work and develops real affection for her, as she reminds
+      him of his late wife. When traditional and house proud Steven, Bryce's father,
+      criticizes the Bakers' apparent lack of care for their property, Chet confides
+      that it's rented, as they devote most of their finances to caring for Juli's
+      mentally-disabled uncle David. The property is supposed to be cared for by their
+      landlord. As Chet spends more time with Juli and encourages Bryce to be more
+      open-minded, Bryce realizes he has feelings for her.\r\n\r\nMeanwhile, as Juli
+      is encouraged to broaden her mind by Chet, she starts to question if she actually
+      likes Bryce. Going with her father to visit Daniel on his birthday, they have
+      a difficult but ultimately positive interaction. Afterward, Juli is told by
+      a classmate that Bryce has been admiring her, but she overhears Bryce agreeing
+      with Garrett as he makes fun of her and Daniel, causing Juli to completely lose
+      interest in him. Unbeknownst to her, Bryce is disgusted with Garrett's attitude
+      and stops spending time with him, but they remain friendly.\r\n\r\nFeeling bad
+      about their indifference towards the Bakers, Bryce's mother Patsy invites them
+      over for a family dinner. Bryce is excited, but Juli tells him privately that
+      she overheard Bryce making fun of her and her uncle, calling him a coward for
+      not defending her. The dinner gets off to an awkward start, but is a success.
+      After dinner, Juli apologizes to Bryce for her behavior, and he realizes she
+      feels complete indifference to him, leaving him feeling confused and hurt.\r\n\r\nAs
+      the basket boy auction, an annual school charity event, approaches, Bryce finds
+      out he has been selected as a basket boy and will be auctioned off to the other
+      students along with a homemade lunch. Juli finds out Sherry is planning to bid
+      on Bryce, but acts uninterested. Bryce hears a rumor that Sherry and another
+      girl are going to bid for him and Juli is seen having a lot of cash with her,
+      but out of sympathy she bids on a rejected boy named Eddie Trulock instead.
+      Sherry bids on Bryce and wins.\r\n\r\nDuring the basket boy lunch, Bryce is
+      completely uninterested in Sherry's conversation, and instead watches Juli eat
+      with Eddie Trulock. Overwhelmed with jealousy, Bryce gets up and tries to kiss
+      Juli in front of all their classmates, but she rejects him and runs off in humiliation.
+      Bryce runs after her, and Garrett confronts him for abandoning the prettiest
+      girl in school. When he makes fun of Juli, Bryce ends their friendship for good.
+      He tries to talk to Juli and explain, but Juli won't see or speak to him.\r\n\r\nTwo
+      days later, with Richard's permission, Bryce plants a sapling sycamore tree
+      in Juli's front yard to show her how he truly feels. When she sees this, she
+      goes out to help him and realizes that after all these years, they have never
+      really talked. As they plant the tree, their hands touch, they look into each
+      other�s eyes and share a knowing smile."
+    director: 6
+- model: films.movie
+  pk: 10
+  fields:
+    name: He is a dragon
+    year: 2015
+    description: "In the Kievan Rus' of European epics, the people knew no happiness,
+      only fear as a dreadful dragon has been terrorizing a local village and its
+      people. In order to appease the dragon, the villagers use a ritual that sacrificed
+      young maidens and they sing an ancient song to summon the dragon. The dragon
+      abducts one of the maidens, but one brave knight traveled to an island where
+      the dragon lived to rescue his love, but the time he got there, it was to late.
+      The knight and dragon fought a fierce battle, but in the end, the knight emerged
+      victorious and the dragon was defeated. The knight freed his people from fear,
+      he became known as the dragon slayer for his reputation for killing the dragon
+      and the dreaded ritual was transformed into a wedding ceremony.\r\n\r\nMany
+      years later, the young Princess Miroslava (Maria Poezzhaeva), Mira for short,
+      is betrothed to Igor, who is the dragon slayers grandson. Her father and sister
+      Yaroslava think she is immature because she still likes fairy tales and playing
+      with toys. Mira is placed on a boat deck in her wedding finery to be sent across
+      the water to her future husband, Igor, the same way they used for the ritual
+      to appease the dragon years ago. As Igor pulls her boat toward him, his people
+      sing the ancient ritual song at their wedding.\r\n\r\nIn the middle of the wedding,
+      the dragon who was thought to have been dead captures Mira. She is held prisoner
+      in a cave where Mira meets a strange creature and a young man who cannot remember
+      his name. Mira believes he is another prisoner and calls him Arman (Matvey Lykov).
+      Soon, she discovers that Arman is the dragon who abducted her. He lives in human
+      form, holding back the inner beast, but sometimes turns into a dragon against
+      his will. As a dragon, Arman is unable to control himself.\r\n\r\nArman shows
+      Mira the island and a place for her to create a home. He tells her that male
+      dragons had long lived on the island. He and his father have been living together
+      as long as he remembered, as a dragon boy he had been allowed to choose whether
+      to stay human or become a dragon. He chose to remain human until the dragon
+      slayer killed his father. In his grief and rage, he became a dragon, gaining
+      the knowledge of all dragons who had come before him. Realizing that dragons
+      were truly monsters, Arman isolated himself on the island to prevent himself
+      from killing humans. Sensing the uncontrollable transition to dragon form, he
+      would go into the cave where the dragon could not escape and remain there until
+      reverting to human form and almost had his dragon form under control. He abducted
+      Mira because of the ritual song sung at her wedding by villagers believing dragons
+      to be extinct. The song caught Arman off guard and he did not have time to hide
+      in the cave before responding to the song's summons.\r\n\r\nArman wants to live
+      as a man and crush his inner dragon because he is afraid of harming Mira. Mira
+      talks with Arman and teaches him to live as a human. As they get to know one
+      another, Arman and Mira fall in love although Mira is still afraid of the dragon.\r\n\r\nThe
+      island is bewitched so that only those who are loved by someone on the island
+      can find the way to it. Because Mira's feelings toward Igor change as she fell
+      in love with Arman, Igor meanwhile, searches futilely in a fog.\r\n\r\nMira's
+      fear of the dragon causes her to secretly prepare a boat in order to escape.
+      Learning of her preparations, Arman despairs of ever being able to control the
+      dragon and reveals to Mira the real reason why the dragons had brought maidens
+      to the island. Dragons bring young girls to the island so they can burn them
+      to death and from the ashes of each girl a new dragon was born, that is how
+      Arman was born. Arman orders Mira to leave so that she will avoid this fate.
+      But without Mira, Arman does not know how to continue living.\r\n\r\nMira returns
+      home. While preparing again for her wedding with Igor, Mira realizes that she
+      still loves Arman and cannot live without him. While on the boat, Mira sings
+      the ritual song to call the dragon. Arman, meanwhile, is ending his life in
+      order to make sure that there will be no more dragons and but changes into the
+      dragon as he hears the song. He recaptures Mira and brings her to the island,
+      intending to burn her. Mira does not show fear to the dragon and confesses her
+      love for him. This allows Arman to finally control himself as a dragon.\r\n\r\nYears
+      later, Mira and Arman are living together on the island with their daughter.
+      Mira flies on her dragon-husband, who is no longer dangerous to her, and they
+      live happily ever after.[9]"
+    director: 7
