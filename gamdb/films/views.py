@@ -7,7 +7,21 @@ def homepage(request):
         "movies": Movie.objects.all()
     }
   
-    return render(request, 'main.html', context)
+    return render(request, 'homepage.html', context)
+
+def movies(request):
+    context = {
+        "movies": Movie.objects.all()
+    }
+  
+    return render(request, 'movies.html', context)
+    
+def detaily(request):
+    context = {
+        "movies": Movie.objects.all()
+    }
+  
+    return render(request, 'detaily.html', context)
 
 def directors(request):
     context = {

@@ -14,10 +14,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from films.views import homepage, directors
+from films.views import homepage, directors, detaily, movies
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', homepage, name="homepage"),
-    path('directors/', directors, name="directors")
+    path('movies/', movies, name="movies"),
+    path('directors/', directors, name="directors"),
+    path('detaily/', detaily, name="detaily")
 ]
