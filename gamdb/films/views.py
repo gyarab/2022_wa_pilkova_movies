@@ -1,37 +1,49 @@
 from django.shortcuts import render
-from .models import Movie, Director
+from .models import Movie, Director, Actor, Genre
 
-
-def homepage(request):
+def directors(request):
     context = {
-        "movies": Movie.objects.all()
+        'directors': Director.objects.all()
     }
-  
-    return render(request, 'homepage.html', context)
+    print(context)
+    return render(request, 'directors.html', context)
+
+def director(request, id):
+    context = {
+        "director": Director.objects.get(id=id)
+    }
+    return render(request, 'director.html', context)
 
 def movies(request):
     context = {
         "movies": Movie.objects.all()
     }
-  
     return render(request, 'movies.html', context)
-    
-def detaily(request):
+
+def movie(request, id):
     context = {
-        "movies": Movie.objects.all()
+        "movie": Movie.objects.get(id=id)
     }
-  
-    return render(request, 'detaily.html', context)
+    return render(request, 'movie.html', context)
 
-def directors(request):
+def actors(request):
     context = {
-        "logic": True,
-        "title": "Nejoblíbenější herci",
-        "directors": Director.objects.all()
+        "actors": Actor.objects.all()
     }
-  
-    return render(request, 'directors.html', context)
+    return render(request, 'actors.html', context)
 
+def actor(request, id):
+    context = {
+        "actor": Actor.objects.get(id=id)
+    }
+    return render(request, 'actor.html', context)
 
-
-# Create your views here.
+def homepage(request):
+    context = {
+        # TODO use first 10 top rated
+        "movies": Movie.objects.all(),
+        "actors": Actor.objects.all(),
+        "directors": Director.objects.all(),
+        "genres": Genre.objects.all(),
+    }
+    return render(request, 'homepage.html', context)
