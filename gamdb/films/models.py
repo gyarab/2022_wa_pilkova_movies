@@ -9,6 +9,7 @@ class Movie(models.Model):
     description = models.TextField(blank=True)
     director = models.ForeignKey('Director', blank=True, null=True, on_delete=models.SET_NULL)
     genres = models.ManyToManyField('Genre', blank=True, null=True)
+    
 
     def __str__(self):
         return f"{self.name} ({self.year})"

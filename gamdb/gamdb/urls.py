@@ -18,11 +18,11 @@ from films.views import homepage, movies, directors, actors, actor, movie, direc
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('reziseri/', directors, name="directors"),
-    path('reziser/<int:id>', director, name="director"),
-    path('filmy/', movies, name="movies"),
-    path('film/<int:id>', movie, name="movie"),
-    path('herci/', actors, name="actors"),
-    path('herec/<int:id>', actor, name="actor"),
+    path('directors/', directors, name="directors"),
+    path('director/<int:id>', director, name="director"),
+    path('movies/', movies, name="movies"),
+    path('movie/<int:id>', movie, name="movie"),
+    path('actors/', actors, name="actors"),
+    path('actor/<int:id>', actor, name="actor"),
     path('', homepage, name="homepage")
 ]
