@@ -9,7 +9,6 @@ class Movie(models.Model):
     description = models.TextField(blank=True)
     director = models.ForeignKey('Director', blank=True, null=True, on_delete=models.SET_NULL)
     genres = models.ManyToManyField('Genre', blank=True, null=True)
-    
 
     def __str__(self):
         return f"{self.name} ({self.year})"
@@ -23,7 +22,7 @@ class Movie(models.Model):
 
 class Comment(models.Model):
     movie = models.ForeignKey(Movie, on_delete=models.CASCADE)
-    author = models.CharField(max_length=255)
+    author = models.CharField(max_length=255, blank=True)
     text = models.TextField(blank=True)
     rating = models.IntegerField(null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)

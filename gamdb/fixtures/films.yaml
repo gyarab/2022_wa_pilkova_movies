@@ -2,7 +2,10 @@
   pk: 1
   fields:
     name: Kill Bill
+    slug: def
+    image_url: null
     year: 2003
+    avg_rating: null
     description: "In 1999, a pregnant woman in a wedding dress, the Bride, lies wounded
       in a chapel in El Paso, Texas. She tells her attacker, Bill, that the baby is
       his just as he shoots her in the head.\r\n\r\nYears later, the Bride, having
@@ -18,11 +21,15 @@
       has seen but insists that Vernita deserved it. She offers Nikki a chance to
       avenge her mother's death when she grows up, should she choose to do so."
     director: 2
+    genres: []
 - model: films.movie
   pk: 2
   fields:
     name: Titanic
+    slug: def
+    image_url: null
     year: 1997
+    avg_rating: null
     description: "In 1996, aboard the research vessel Akademik Mstislav Keldysh, Brock
       Lovett and his team search the wreck of RMS Titanic. They recover a safe they
       hope contains a necklace with a large diamond known as the Heart of the Ocean.
@@ -30,7 +37,7 @@
       The sketch is dated April 14, 1912, the same day the Titanic struck the iceberg
       that caused it to sink.[Note 2] Rose Dawson Calvert, the woman in the drawing,
       is brought aboard Keldysh, and recounts her experiences.\r\n\r\nIn 1912 Southampton,
-      17-year-old Rose DeWitt Bukater, her wealthy fianc� Caledon \"Cal\" Hockley,
+      17-year-old Rose DeWitt Bukater, her wealthy fiancé Caledon \"Cal\" Hockley,
       and Rose's widowed mother Ruth, board the Titanic. Ruth emphasizes that Rose's
       marrying Cal will resolve the family's financial problems and maintain their
       upper-class status. Meanwhile, Jack Dawson, a poor young artist, wins a third-class
@@ -75,11 +82,16 @@
       with Jack at the Titanic's Grand Staircase, applauded by those who died on the
       ship."
     director: 3
+    genres:
+    - 3
 - model: films.movie
   pk: 3
   fields:
     name: Avatar
+    slug: def
+    image_url: null
     year: 2009
+    avg_rating: null
     description: "In 2154, the natural resources of the Earth have been depleted.
       The Resources Development Administration (RDA) mines the valuable mineral unobtanium
       on Pandora, a moon in the Alpha Centauri star system. Pandora, whose atmosphere
@@ -106,7 +118,7 @@
       a spy and the Na'vi take him and Grace captive. Quaritch's soldiers destroy
       Hometree, killing many, including Neytiri's father, the clan chief. Mo'at frees
       Jake and Grace, but they are detached from their avatars and imprisoned by Quaritch's
-      forces. Pilot Trudy Chac�n, disgusted by Quaritch's brutality, airlifts Jake,
+      forces. Pilot Trudy Chacón, disgusted by Quaritch's brutality, airlifts Jake,
       Grace, and Norm to Grace's outpost. Grace is shot during the escape. Jake regains
       the Na'vi's trust by connecting his mind to that of Toruk, a dragon-like creature
       feared and revered by the Na'vi. At the sacred Tree of Souls, Jake pleads with
@@ -126,19 +138,24 @@
       from Pandora. Jake is permanently transferred into his avatar with the aid of
       the Tree of Souls."
     director: 3
+    genres:
+    - 2
 - model: films.movie
   pk: 4
   fields:
     name: 'Avatar: The Way of Water'
+    slug: def
+    image_url: null
     year: 2022
+    avg_rating: null
     description: "Sixteen years after the Na'vi repelled the RDA invasion of Pandora,[a]
       Jake Sully lives as chief of the Omatikaya clan and raises a family with Neytiri,
       which includes sons Neteyam and Lo'ak, daughter Tuk, and adopted children Kiri
       (born from Grace Augustine's inert avatar) and Spider, the Pandora-born human
       son of the late Colonel Miles Quaritch. To the Na'vi's dismay, the RDA, led
       by their new leader, Frances Ardmore, returns to colonize Pandora as Earth is
-      dying. Among the new arrivals are Recombinants�Na'vi avatars implanted with
-      deceased human soldiers' memories�with Quaritch's recombinant serving as the
+      dying. Among the new arrivals are Recombinants—Na'vi avatars implanted with
+      deceased human soldiers' memories—with Quaritch's recombinant serving as the
       leader.\r\n\r\nA year into the occupation, Jake leads a guerilla campaign against
       the RDA. During a counterinsurgency mission, Quaritch and his subordinates capture
       Jake's children. Jake and Neytiri arrive and free them, killing several of Quaritch's
@@ -154,7 +171,7 @@
       Tonowari's son, Lo'ak apologizes at Jake's insistence. Aonung and his friends
       then entice Lo'ak to a trip into a sea predator's territory and leave him stranded.
       After being saved from a giant sea beast, Lo'ak is befriended by Payakan, a
-      Tulkun�an intelligent and pacifistic whale-like species whom the Metkayina consider
+      Tulkun—an intelligent and pacifistic whale-like species whom the Metkayina consider
       their spiritual brethren. Upon his return, Lo'ak wins Aonung's friendship by
       taking the blame for the trip but is told that Payakan is an outcast among the
       Tulkun. Later, Kiri links to the Metkayina's underwater Spirit Tree and spiritually
@@ -193,11 +210,17 @@
       him and his family to stay. Before vowing to resume their campaign against the
       RDA, Jake and his family accept and live their new life at sea."
     director: 3
+    genres:
+    - 1
+    - 2
 - model: films.movie
   pk: 5
   fields:
     name: 'Dirty Dancing: Havana Nights'
+    slug: def
+    image_url: null
     year: 2004
+    avg_rating: null
     description: "In 1958, Katey Miller (Romola Garai), her parents (Sela Ward and
       John Slattery), and her younger sister Susie (Mika Boorem) arrive in Cuba during
       the Cuban revolution. A self-described bookworm, Katey is not very happy about
@@ -207,8 +230,8 @@
       American teenagers down by the pool - including James Phelps (Jonathan Jackson),
       the son of her father's boss - Katey becomes disgusted when one of the teenagers
       insults a local waiter when he drops their drinks because Katey accidentally
-      bumped into him. Katey attempts to talk to the waiter�Javier (Diego Luna), who
-      works at the hotel to support his family�because she feels awful about what
+      bumped into him. Katey attempts to talk to the waiter—Javier (Diego Luna), who
+      works at the hotel to support his family—because she feels awful about what
       had occurred, but he is not interested.\r\n\r\nKatey watches a film of her mother
       and father dancing and wishes she could dance as well as they did. She and her
       father dance a bit. The next day in class, Katey is asked to read aloud from
@@ -253,11 +276,15 @@
       her, and Katey narrates that she doesn't know when she will see Javier again,
       but this will not be their last time to dance together."
     director: 4
+    genres: []
 - model: films.movie
   pk: 6
   fields:
     name: Dirty Dancing
+    slug: def
+    image_url: null
     year: 1987
+    avg_rating: null
     description: "In the summer of 1963, 17-year-old[5] Frances \"Baby\" Houseman
       is vacationing with her parents, Dr. Jake and Marjorie Houseman, and her older
       sister Lisa at Kellerman's, an upscale Catskills resort in the Borscht Belt
@@ -301,17 +328,21 @@
       was wrong about Johnny and reconciles with Baby, and all the staff and guests
       join Baby and Johnny dancing to \"(I've Had) The Time of My Life\"."
     director: 4
+    genres: []
 - model: films.movie
   pk: 7
   fields:
     name: Once Upon a Time in Hollywood
+    slug: def
+    image_url: null
     year: 2019
+    avg_rating: null
     description: "In February 1969, Hollywood actor Rick Dalton, star of 1950s TV
       Western series Bounty Law, fears his career is fading, with his recent roles
       being guest appearances as villains. His agent Marvin Schwarz advises him to
       make Spaghetti Westerns in Italy, which Dalton considers beneath him. Dalton's
-      best friend and stunt double, Cliff Booth � a war veteran who lives in a trailer
-      with his pit bull, Brandy � drives Dalton around due to his DUI arrests and
+      best friend and stunt double, Cliff Booth – a war veteran who lives in a trailer
+      with his pit bull, Brandy – drives Dalton around due to his DUI arrests and
       driver's license suspension. Booth struggles to find stunt work because of rumors
       he murdered his wife. Actress Sharon Tate and her husband, director Roman Polanski,
       have moved next door to Dalton, and Dalton dreams of befriending them to revive
@@ -361,11 +392,15 @@
       consciousness and is taken away in an ambulance, and Sebring and Tate invite
       Dalton over for a drink, which he accepts."
     director: 2
+    genres: []
 - model: films.movie
   pk: 8
   fields:
     name: 10 Things I Hate About You
+    slug: def
+    image_url: null
     year: 1999
+    avg_rating: null
     description: 'In Padua Hills, a fictional town near Seattle, new sophomore student
       Cameron (Joseph Gordon-Levitt) instantly falls head over heels for the girl
       of his dreams: popular and wealthy sophomore Bianca (Larisa Oleynik), but learns
@@ -380,13 +415,18 @@
       out with her, he develops feelings for her as she becomes more vulnerable to
       him than she has with anyone else.'
     director: 5
+    genres:
+    - 3
 - model: films.movie
   pk: 9
   fields:
     name: Flipped
+    slug: def
+    image_url: null
     year: 2010
+    avg_rating: null
     description: "In 1957, 7-year-old Bryce Loski moves in across the street from
-      Julianna \"Juli\" Baker. Looking into each other's eyes, Juli knows it�s love,
+      Julianna \"Juli\" Baker. Looking into each other's eyes, Juli knows it’s love,
       but Bryce is put off and avoids her.\r\n\r\nFour years later Juli is still completely
       enamored, rarely leaving Bryce alone. He tries everything to get rid of her,
       including dating Sherry Stalls, one of the most popular girls in school, whom
@@ -443,13 +483,18 @@
       in Juli's front yard to show her how he truly feels. When she sees this, she
       goes out to help him and realizes that after all these years, they have never
       really talked. As they plant the tree, their hands touch, they look into each
-      other�s eyes and share a knowing smile."
+      other’s eyes and share a knowing smile."
     director: 6
+    genres:
+    - 3
 - model: films.movie
   pk: 10
   fields:
     name: He is a dragon
+    slug: def
+    image_url: null
     year: 2015
+    avg_rating: null
     description: "In the Kievan Rus' of European epics, the people knew no happiness,
       only fear as a dreadful dragon has been terrorizing a local village and its
       people. In order to appease the dragon, the villagers use a ritual that sacrificed
@@ -510,3 +555,54 @@
       Mira flies on her dragon-husband, who is no longer dangerous to her, and they
       live happily ever after.[9]"
     director: 7
+    genres:
+    - 1
+    - 3
+- model: films.director
+  pk: 2
+  fields:
+    name: Quentin Tarantino
+    slug: default
+    birth_year: 1963
+- model: films.director
+  pk: 3
+  fields:
+    name: James Cameron
+    slug: default
+    birth_year: 1954
+- model: films.director
+  pk: 4
+  fields:
+    name: Guy Ferland
+    slug: default
+    birth_year: 1966
+- model: films.director
+  pk: 5
+  fields:
+    name: Gil Junger
+    slug: default
+    birth_year: 1954
+- model: films.director
+  pk: 6
+  fields:
+    name: Rob Reiner
+    slug: default
+    birth_year: 1947
+- model: films.director
+  pk: 7
+  fields:
+    name: Indar Dzhendubaev
+    slug: default
+    birth_year: 1983
+- model: films.genre
+  pk: 1
+  fields:
+    name: sci-fi
+- model: films.genre
+  pk: 2
+  fields:
+    name: fantasy
+- model: films.genre
+  pk: 3
+  fields:
+    name: romance

@@ -1,7 +1,7 @@
 from django import forms
 
-class CommentForm(forms.form):
-    author = forms.CharField(max_length=255)
-    text = forms.CharField(widget=forms.Textarea)
-    rating = forms.IntegerField()
+class CommentForm(forms.Form):
+    author = forms.CharField(required=False, widget=forms.TextInput(attrs={"class":"form-control", "placeholder":"Pepa z Depa" }))
+    text = forms.CharField(required=False, widget=forms.Textarea(attrs={"rows":5, "class":"form-control" }))
+    rating = forms.IntegerField(required=False, widget=forms.NumberInput(attrs= {"class":"form-control"}))
     
