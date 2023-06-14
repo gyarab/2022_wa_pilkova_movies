@@ -7,5 +7,6 @@
 {% block content %}
 <h1>{{director.name}}</h1>
 <h2>{{director.birth_year}}</h2>
+<img src="{% if director.photo_url %}{{director.photo_url}}{% else %}https://place-hold.it/180x100/{% endif %}" alt="Card image cap">
 <p>{{ director.description|safe }}</p>
 {% endblock content %}

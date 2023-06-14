@@ -3,9 +3,9 @@
   fields:
     name: Kill Bill
     slug: def
-    image_url: null
+    image_url: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQgAlWzfc0q1lmLka4O8B79wc-s4jR5TpVBvBeLouGLJI9UAehiTfM7JOO6-F6VWKQ6q4&usqp=CAU
     year: 2003
-    avg_rating: null
+    avg_rating: 6.3
     description: "In 1999, a pregnant woman in a wedding dress, the Bride, lies wounded
       in a chapel in El Paso, Texas. She tells her attacker, Bill, that the baby is
       his just as he shoots her in the head.\r\n\r\nYears later, the Bride, having
@@ -27,9 +27,9 @@
   fields:
     name: Titanic
     slug: def
-    image_url: null
+    image_url: https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2021/07/18/1923020355790/TITANIC_SAlone_1920x1080_1223290_1920x1080.jpg
     year: 1997
-    avg_rating: null
+    avg_rating: 7.2
     description: "In 1996, aboard the research vessel Akademik Mstislav Keldysh, Brock
       Lovett and his team search the wreck of RMS Titanic. They recover a safe they
       hope contains a necklace with a large diamond known as the Heart of the Ocean.
@@ -37,7 +37,7 @@
       The sketch is dated April 14, 1912, the same day the Titanic struck the iceberg
       that caused it to sink.[Note 2] Rose Dawson Calvert, the woman in the drawing,
       is brought aboard Keldysh, and recounts her experiences.\r\n\r\nIn 1912 Southampton,
-      17-year-old Rose DeWitt Bukater, her wealthy fiancÃ© Caledon \"Cal\" Hockley,
+      17-year-old Rose DeWitt Bukater, her wealthy fiancé Caledon \"Cal\" Hockley,
       and Rose's widowed mother Ruth, board the Titanic. Ruth emphasizes that Rose's
       marrying Cal will resolve the family's financial problems and maintain their
       upper-class status. Meanwhile, Jack Dawson, a poor young artist, wins a third-class
@@ -89,9 +89,9 @@
   fields:
     name: Avatar
     slug: def
-    image_url: null
+    image_url: https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/1430A47DDD532CE6292009B3CF2080145C771904DF2F472021F2EC6075D0761C/scale?width=1200&aspectRatio=1.78&format=jpeg
     year: 2009
-    avg_rating: null
+    avg_rating: 9.0
     description: "In 2154, the natural resources of the Earth have been depleted.
       The Resources Development Administration (RDA) mines the valuable mineral unobtanium
       on Pandora, a moon in the Alpha Centauri star system. Pandora, whose atmosphere
@@ -118,7 +118,7 @@
       a spy and the Na'vi take him and Grace captive. Quaritch's soldiers destroy
       Hometree, killing many, including Neytiri's father, the clan chief. Mo'at frees
       Jake and Grace, but they are detached from their avatars and imprisoned by Quaritch's
-      forces. Pilot Trudy ChacÃ³n, disgusted by Quaritch's brutality, airlifts Jake,
+      forces. Pilot Trudy Chacón, disgusted by Quaritch's brutality, airlifts Jake,
       Grace, and Norm to Grace's outpost. Grace is shot during the escape. Jake regains
       the Na'vi's trust by connecting his mind to that of Toruk, a dragon-like creature
       feared and revered by the Na'vi. At the sacred Tree of Souls, Jake pleads with
@@ -145,17 +145,17 @@
   fields:
     name: 'Avatar: The Way of Water'
     slug: def
-    image_url: null
+    image_url: https://images.thedirect.com/media/tag_thumbnail/avatar-the-way-of-water_VyIagyn.png
     year: 2022
-    avg_rating: null
+    avg_rating: 9.1
     description: "Sixteen years after the Na'vi repelled the RDA invasion of Pandora,[a]
       Jake Sully lives as chief of the Omatikaya clan and raises a family with Neytiri,
       which includes sons Neteyam and Lo'ak, daughter Tuk, and adopted children Kiri
       (born from Grace Augustine's inert avatar) and Spider, the Pandora-born human
       son of the late Colonel Miles Quaritch. To the Na'vi's dismay, the RDA, led
       by their new leader, Frances Ardmore, returns to colonize Pandora as Earth is
-      dying. Among the new arrivals are Recombinantsâ€”Na'vi avatars implanted with
-      deceased human soldiers' memoriesâ€”with Quaritch's recombinant serving as the
+      dying. Among the new arrivals are Recombinants—Na'vi avatars implanted with
+      deceased human soldiers' memories—with Quaritch's recombinant serving as the
       leader.\r\n\r\nA year into the occupation, Jake leads a guerilla campaign against
       the RDA. During a counterinsurgency mission, Quaritch and his subordinates capture
       Jake's children. Jake and Neytiri arrive and free them, killing several of Quaritch's
@@ -171,7 +171,7 @@
       Tonowari's son, Lo'ak apologizes at Jake's insistence. Aonung and his friends
       then entice Lo'ak to a trip into a sea predator's territory and leave him stranded.
       After being saved from a giant sea beast, Lo'ak is befriended by Payakan, a
-      Tulkunâ€”an intelligent and pacifistic whale-like species whom the Metkayina consider
+      Tulkun—an intelligent and pacifistic whale-like species whom the Metkayina consider
       their spiritual brethren. Upon his return, Lo'ak wins Aonung's friendship by
       taking the blame for the trip but is told that Payakan is an outcast among the
       Tulkun. Later, Kiri links to the Metkayina's underwater Spirit Tree and spiritually
@@ -218,9 +218,9 @@
   fields:
     name: 'Dirty Dancing: Havana Nights'
     slug: def
-    image_url: null
+    image_url: https://a.ltrbxd.com/resized/sm/upload/ze/jl/x8/7j/tclvSFnqWrN8KusdyXATt4b8W9p-1200-1200-675-675-crop-000000.jpg?v=408fb08796
     year: 2004
-    avg_rating: null
+    avg_rating: 9.8
     description: "In 1958, Katey Miller (Romola Garai), her parents (Sela Ward and
       John Slattery), and her younger sister Susie (Mika Boorem) arrive in Cuba during
       the Cuban revolution. A self-described bookworm, Katey is not very happy about
@@ -230,8 +230,8 @@
       American teenagers down by the pool - including James Phelps (Jonathan Jackson),
       the son of her father's boss - Katey becomes disgusted when one of the teenagers
       insults a local waiter when he drops their drinks because Katey accidentally
-      bumped into him. Katey attempts to talk to the waiterâ€”Javier (Diego Luna), who
-      works at the hotel to support his familyâ€”because she feels awful about what
+      bumped into him. Katey attempts to talk to the waiter—Javier (Diego Luna), who
+      works at the hotel to support his family—because she feels awful about what
       had occurred, but he is not interested.\r\n\r\nKatey watches a film of her mother
       and father dancing and wishes she could dance as well as they did. She and her
       father dance a bit. The next day in class, Katey is asked to read aloud from
@@ -282,9 +282,9 @@
   fields:
     name: Dirty Dancing
     slug: def
-    image_url: null
+    image_url: https://www.hollywoodreporter.com/wp-content/uploads/2017/08/dirty_dancing_1986_8-h_2017_0.jpg?w=1024
     year: 1987
-    avg_rating: null
+    avg_rating: 8.5
     description: "In the summer of 1963, 17-year-old[5] Frances \"Baby\" Houseman
       is vacationing with her parents, Dr. Jake and Marjorie Houseman, and her older
       sister Lisa at Kellerman's, an upscale Catskills resort in the Borscht Belt
@@ -334,15 +334,15 @@
   fields:
     name: Once Upon a Time in Hollywood
     slug: def
-    image_url: null
+    image_url: https://i.ytimg.com/vi/Scf8nIJCvs4/maxresdefault.jpg
     year: 2019
-    avg_rating: null
+    avg_rating: 6.1
     description: "In February 1969, Hollywood actor Rick Dalton, star of 1950s TV
       Western series Bounty Law, fears his career is fading, with his recent roles
       being guest appearances as villains. His agent Marvin Schwarz advises him to
       make Spaghetti Westerns in Italy, which Dalton considers beneath him. Dalton's
-      best friend and stunt double, Cliff Booth â€“ a war veteran who lives in a trailer
-      with his pit bull, Brandy â€“ drives Dalton around due to his DUI arrests and
+      best friend and stunt double, Cliff Booth – a war veteran who lives in a trailer
+      with his pit bull, Brandy – drives Dalton around due to his DUI arrests and
       driver's license suspension. Booth struggles to find stunt work because of rumors
       he murdered his wife. Actress Sharon Tate and her husband, director Roman Polanski,
       have moved next door to Dalton, and Dalton dreams of befriending them to revive
@@ -398,9 +398,9 @@
   fields:
     name: 10 Things I Hate About You
     slug: def
-    image_url: null
+    image_url: https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/421841DB2EB70A4718B792D247A03CD9838A6E67AB49636F3EA0B971EA18E7C1/scale?width=1200&aspectRatio=1.78&format=jpeg
     year: 1999
-    avg_rating: null
+    avg_rating: 8.8
     description: 'In Padua Hills, a fictional town near Seattle, new sophomore student
       Cameron (Joseph Gordon-Levitt) instantly falls head over heels for the girl
       of his dreams: popular and wealthy sophomore Bianca (Larisa Oleynik), but learns
@@ -422,11 +422,11 @@
   fields:
     name: Flipped
     slug: def
-    image_url: null
+    image_url: https://www.streamingrant.com/wp-content/uploads/2022/12/flipped-1-768x432.jpg.webp
     year: 2010
-    avg_rating: null
+    avg_rating: 8.7
     description: "In 1957, 7-year-old Bryce Loski moves in across the street from
-      Julianna \"Juli\" Baker. Looking into each other's eyes, Juli knows itâ€™s love,
+      Julianna \"Juli\" Baker. Looking into each other's eyes, Juli knows it’s love,
       but Bryce is put off and avoids her.\r\n\r\nFour years later Juli is still completely
       enamored, rarely leaving Bryce alone. He tries everything to get rid of her,
       including dating Sherry Stalls, one of the most popular girls in school, whom
@@ -483,7 +483,7 @@
       in Juli's front yard to show her how he truly feels. When she sees this, she
       goes out to help him and realizes that after all these years, they have never
       really talked. As they plant the tree, their hands touch, they look into each
-      otherâ€™s eyes and share a knowing smile."
+      other’s eyes and share a knowing smile."
     director: 6
     genres:
     - 3
@@ -492,9 +492,9 @@
   fields:
     name: He is a dragon
     slug: def
-    image_url: null
+    image_url: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFTyHA6AQYu8tdWbdBxb0TLZDKCB4aLs7s9Q&usqp=CAU
     year: 2015
-    avg_rating: null
+    avg_rating: 9.8
     description: "In the Kievan Rus' of European epics, the people knew no happiness,
       only fear as a dreadful dragon has been terrorizing a local village and its
       people. In order to appease the dragon, the villagers use a ritual that sacrificed
@@ -563,37 +563,65 @@
   fields:
     name: Quentin Tarantino
     slug: default
+    photo_url: https://cdn.administrace.tv/2023/05/29/medium_169/a5569b613569db2f7073d3bc84ed3ea7.jpg
     birth_year: 1963
 - model: films.director
   pk: 3
   fields:
     name: James Cameron
     slug: default
+    photo_url: https://deadline.com/wp-content/uploads/2022/10/GettyImages-1204552575-e1666725950882.jpg
     birth_year: 1954
 - model: films.director
   pk: 4
   fields:
     name: Guy Ferland
     slug: default
+    photo_url: https://1.bp.blogspot.com/-jq6D_6luXlQ/UDtmPrIpcyI/AAAAAAAABWk/w8Ya6MDzKM4/s400/TWD-S3-Guy-Ferland-Interview-560.jpg
     birth_year: 1966
 - model: films.director
   pk: 5
   fields:
     name: Gil Junger
     slug: default
+    photo_url: https://m.media-amazon.com/images/M/MV5BZjZlM2JkNTktODgxOS00Yjc2LWIwMDctNmViZWM0YjdmMzYzXkEyXkFqcGdeQXVyMjY2NTg3MA@@._V1_.jpg
     birth_year: 1954
 - model: films.director
   pk: 6
   fields:
     name: Rob Reiner
     slug: default
+    photo_url: https://www.bostonglobe.com/resizer/wRHRTHTBNmQhc2sa7GgDuX0trTc=/arc-anglerfish-arc2-prod-bostonglobe/public/QRWWPS76LJHDPNLFSOTH2KMMJA.jpg
     birth_year: 1947
 - model: films.director
   pk: 7
   fields:
     name: Indar Dzhendubaev
     slug: default
+    photo_url: https://ajanskafkas.com/materyal/uploads/2016/05/1461971100_61313-640x427-e1462215416243.jpg
     birth_year: 1983
+- model: films.actor
+  pk: 1
+  fields:
+    name: Sam Worthington
+    birth_year: 1976
+    slug: samworthington
+    photo_url: https://apicms.thestar.com.my/uploads/images/2022/12/19/1869217.jpg
+    description: "Samuel Henry John Worthington[1] (born 2 August 1976) is an Australian
+      actor. He was born in England and moved to Australia when he was 6 months old
+      and was raised there. He is best known for playing Jake Sully in the Avatar
+      franchise, Marcus Wright in Terminator Salvation, and Perseus in Clash of the
+      Titans and its sequel Wrath of the Titans. He has taken other dramatic roles,
+      appearing in The Debt (2010), Everest (2015), Hacksaw Ridge (2016), The Shack
+      (2017), Manhunt: Unabomber (2017), and Fractured (2019).\r\n\r\nOn television,
+      he appeared in his native Australia as Howard in Love My Way and as Phillip
+      Schuler in the television drama mini-series Deadline Gallipoli, for which he
+      was also an executive producer. He voiced the protagonist, Captain Alex Mason,
+      in the video game Call of Duty: Black Ops (2010), as well as its sequels Call
+      of Duty: Black Ops II (2012), and Call of Duty: Black Ops 4 (2018).\r\n\r\nIn
+      2022, he starred in the true crime miniseries Under the Banner of Heaven.\r\n\r\nIn
+      2004, Worthington received Australia's highest film award for his lead role
+      in Somersault."
 - model: films.genre
   pk: 1
   fields:
