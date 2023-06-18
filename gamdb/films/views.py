@@ -3,18 +3,7 @@ from .models import Movie, Director, Actor, Genre, Comment
 from django.db.models import Q
 from .forms import CommentForm
 
-def directors(request):
-    context = {
-        "directors": Director.objects.all()
-    }
-    return render(request, 'director.html', context)
 
-def director(request, id):
-    d = Director.objects.get(id=id)
-    context = {
-        "director": d
-    }
-    return render(request, 'director.html', context)
 
 def movies(request):
     movies_queryset = Movie.objects.all()
@@ -86,3 +75,15 @@ def homepage(request):
     }
     return render(request, 'homepage.html', context)
   
+def directors(request):
+    context = {
+        "directors": Director.objects.all()
+    }
+    return render(request, 'directors.html', context)
+
+def director(request, id):
+    d = Director.objects.get(id=id)
+    context = {
+        "director": d
+    }
+    return render(request, 'director.html', context)
