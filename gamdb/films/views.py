@@ -5,20 +5,21 @@ from .forms import CommentForm
 
 def directors(request):
     context = {
-        'directors': Director.objects.all()
+        "directors": Director.objects.all()
     }
-    print(context)
-    return render(request, 'directors.html', context)
+    return render(request, 'director.html', context)
 
 def director(request, id):
+    d = Director.objects.get(id=id)
     context = {
-        "director": Director.objects.get(id=id)
+        "director": d
     }
     return render(request, 'director.html', context)
 
 def movies(request):
     movies_queryset = Movie.objects.all()
     genre = request.GET.get('genre')
+    
     if genre:
         movies_queryset = movies_queryset.filter(genres__name=genre)
     search = request.GET.get('search')
@@ -36,6 +37,7 @@ def movies(request):
 def movie(request, id):
     m = Movie.objects.get(id=id)
     f = CommentForm()
+    avg_rating = request.GET.get('avg_rating')
 
     if request.POST:
         f = CommentForm(request.POST)
@@ -56,6 +58,7 @@ def movie(request, id):
     context = {
         "movie": m,
         "comments": Comment.objects.filter(movie=m).order_by('-created_at'),
+        "avg_rating": avg_rating,
         "form": f
     }
     return render(request, 'movie.html', context)
@@ -67,8 +70,9 @@ def actors(request):
     return render(request, 'actors.html', context)
 
 def actor(request, id):
+    a =  Actor.objects.get(id=id)
     context = {
-        "actor": Actor.objects.get(id=id)
+        "actor": a
     }
     return render(request, 'actor.html', context)
 
