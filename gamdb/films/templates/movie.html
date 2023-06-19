@@ -5,24 +5,112 @@
 {% endblock %}
 
 {% block content %}
-<h1>{{movie.name}}</h1>
-<h2>Average rating: {{ movie.avg_rating}}</h2>
+<h1 class="display-2">{{movie.name}}</h1>
+<div class="container-fluid">
+<h2>Average rating: {{ movie.avg_rating}}%</h2>
 <img src="{% if movie.image_url %}{{movie.image_url}}{% else %}https://place-hold.it/180x100/{% endif %}" alt="Card image cap">
+</div>
+<div class="container mb-3">
+<h2 >Director: </h2>
+{% if movie.id == 1 %}
+<a href=" /director/2">Quentin Tarantino</a>
+{% endif %}
+{% if movie.id == 2 %}
+<a href=" /director/3">James Cameron</a>
+{% endif %}
+{% if movie.id == 3  %}
+<a href=" /director/3">James Cameron</a>
+{% endif %}
+{% if movie.id == 4 %}
+<a href=" /director/3">James Cameron</a>
+{% endif %}
+{% if movie.id == 5%}
+<a href=" /director/4">Guy Ferland</a>
+{% endif %}
+{% if movie.id == 6%}
+<a href=" /director/4">Guy Ferland</a>
+{% endif %}
+{% if movie.id == 7 %}
+<a href=" /director/2">Quentin Tarantino</a>
+{% endif %}
+{% if movie.id == 8 %}
+<a href=" /director/5">Gil Junger</a>
+{% endif %}
+{% if movie.id == 9 %}
+<a href=" /director/6">Rob Reiner</a>
+{% endif %}
+{% if movie.id == 10 %}
+<a href=" /director/7">Indar Dzhendubaev</a>
+{% endif %}
+<h2>Actors:</h2>
+{% if movie.id == 1 %}
+<a href=" /actor/2">Uma Thurman</a>
+<a href=" /actor/3 ">Lucy Liu</a>
+{% endif %}
+{% if movie.id == 2 %}
+<a href="/actor/4">Leonardo DiCaprio</a>
+<a href=" /actor/5 ">Kate Winslet</a>
+{% endif %}
+{% if movie.id == 3 %}
+<a href="/actor/6">Sam Worthington</a>
+<a href=" /actor/7 ">Zoe Saldaña</a>
+{% endif %}
+{% if movie.id == 4 %}
+<a href="/actor/6">Sam Worthington</a>
+<a href=" /actor/7 ">Zoe Saldaña</a>
+{% endif %}
+{% if movie.id == 5 %}
+<a href="/actor/8">Diego Luna</a>
+<a href=" /actor/9 ">Romola Garait</a>
+{% endif %}
+{% if movie.id == 6 %}
+<a href="/actor/10">Patrick Swayze</a>
+<a href=" /actor/11 ">Jennifer Grey</a>
+{% endif %}
+{% if movie.id == 7 %}
+<a href="/actor/4">Leonardo DiCaprio</a>
+<a href=" /actor/12 ">Brad Pitt</a>
+{% endif %}
+{% if movie.id == 2 %}
+<a href="/actor/13">Heath Ledger</a>
+<a href=" /actor/14 ">Julia Stiles</a>
+{% endif %}
+{% if movie.id == 2 %}
+<a href="/actor/15">Madeline Carroll</a>
+<a href=" /actor/16 ">Callan McAuliffe</a>
+{% endif %}
+{% if movie.id == 2 %}
+<a href="/actor/17">Matvey Lykov</a>
+<a href=" /actor/18 ">Marija Pojezžajeva</a>
+{% endif %}
+</div>
+<div class="container mb-3">
 <p>{{ movie.description|safe }}</p>
-<button
-class="btn btn-secondary"
-type="button"
-data-bs-toggle="collapse"
-data-bs-terget="#addComment">
-    Přidat komentář
-</button>
+</div>
+<div class="my-2">
+    <p class="text-end">
+        <button
+            class="btn btn-secondary"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#addComment"
+        >
+            Přidat komentář
+        </button>
+    </p>
+</div>
 
-<form action="" method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <input type="submit" value="Odeslat" />
-</form>
-
+    <div class="container collapse" id="addComment">
+        <div class="col-12 col-md-6 mx-auto">
+            <form action="" method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <input class="form-control btn btn-primary" type="submit" value="Odeslat" />
+            </form>
+        </div>
+    </div>
+</div>
+<div class="container">
 {% for comment in comments %}
 <p>
     <strong>{{ comment.author }}</strong>, {{ comment.created_at|date:"j. n. Y H:i" }}<br />
@@ -30,6 +118,10 @@ data-bs-terget="#addComment">
     {{ comment.text }}
 </p>
 <hr />
+
 {% endfor %}
+</div>
+
+
 
 {% endblock content %}

@@ -31,7 +31,7 @@ def movie(request, id):
     if request.POST:
         f = CommentForm(request.POST)
         if f.is_valid():
-            # ulozit do DB
+            
             c = Comment(
                 movie=m,
                 author=f.cleaned_data.get('author'),
@@ -41,11 +41,12 @@ def movie(request, id):
             if not c.author:
                 c.author = 'Anonym'
             c.save()
-            # nastavit prazdny form
+            
             f = CommentForm()
 
     context = {
         "movie": m,
+        "director": Director.objects.all(),
         "comments": Comment.objects.filter(movie=m).order_by('-created_at'),
         "avg_rating": avg_rating,
         "form": f
@@ -67,7 +68,6 @@ def actor(request, id):
 
 def homepage(request):
     context = {
-        # TODO use first 10 top rated
         "movies": Movie.objects.all(),
         "actors": Actor.objects.all(),
         "directors": Director.objects.all(),
